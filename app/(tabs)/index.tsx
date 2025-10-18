@@ -2,9 +2,11 @@ import { StyleSheet, View } from "react-native";
 
 import { ThemedText } from "@/components/themed-text";
 
+
+
 export default function HomeScreen() {
   return (
-    <View>
+    <View className="flex-1 items-center justify-center bg-red-500">
       <ThemedText>Hello</ThemedText>
     </View>
   );
